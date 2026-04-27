@@ -1,43 +1,64 @@
-# React Jobs Project (YouTube)
+# Job Portal React
 
-This is the jobs listing project from the [YouTube crash course](https://youtu.be/LDB4uaJ87e0).
+A responsive job portal web application built with React that allows users to browse job listings through a clean and interactive interface.
 
-<img src="public/screen.png" />
+## Features
 
-## Usage
+* Browse available job listings
+* Responsive modern UI
+* Dynamic rendering of job cards/components
+* Organized component-based architecture
+* Fast client-side navigation
 
-This project uses JSON-Server for a mock backend.
+## Tech Stack
 
-### Install Dependencies
+* **Frontend:** React.js
+* **Styling:** CSS / Tailwind / Bootstrap *(edit based on what you used)*
+* **Build Tool:** Vite *(or replace with CRA if applicable)*
+
+## Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Jassi-18/job-portal-react.git
+```
+
+2. Navigate into project directory:
+
+```bash
+cd job-portal-react
+```
+
+3. Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Run JSON Server
-
-The server will run on http://localhost:8000
-
-```bash
-npm run server
-```
-
-### Run Vite Frontend
-
-React will run on http://localhost:3000
+4. Start development server:
 
 ```bash
 npm run dev
 ```
 
-### Build for Production
+## Project Structure
 
-```bash
-npm run build
+```plaintext
+src/
+├── components/
+├── pages/
+├── assets/
+└── App.jsx
 ```
 
-### Preview Production Build
+## Future Improvements
 
-```bash
-npm run preview
-```
+* Add authentication for recruiters/candidates
+* Integrate backend API for real job data
+* Add filters and search functionality
+* Enable job application submissions
+
+## Author
+
+Jaskirat Singh Banga
